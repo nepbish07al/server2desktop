@@ -4,9 +4,11 @@ steps:
 
 a. clone this repo
 
-b. cd
+b. change the current directory to the the directory with cloned repo. Type the following command
+>cd server2desktop
 
-c. chmod +x fedora-bisu.sh
+Type this commands:
+>chmod +x fedora-bisu.sh
 
-d. ./fedora-bisu.sh
+> ./fedora-bisu.sh
 
