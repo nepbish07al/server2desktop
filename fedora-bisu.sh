@@ -8,7 +8,7 @@ sudo systemctl set-default graphical.target
 sudo dnf install nano
 sudo dnf install git
 
-git clone https://github.com/nepbish07al/bisu-linux.git
+git clone https://github.com/nepbish07al/server2desktop
 cd bisu-linux
 mkdir ~/.config
 cp bg.jpg ~/.config
