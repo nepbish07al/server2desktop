@@ -21,16 +21,16 @@ sudo dnf install ocs
 sudo dnf install ocs-url-3.1.0-1.fc20.x86_64.rpm
 
 sudo nano /etc/sddm.conf
-echo 'set up your login page, login session to bspwm and user to ='
+echo 'set up your login page, login session=bspwm and user=YOUR_USERNAME'
 
 sudo dnf install fontawesome-fonts fontawesome-fonts-web
 
 sudo dnf install firefox
 sudo dnf install arandar 
-echo 'def resolution'
-echo 'instal nerdfonts -firecoda,meslo and make .fonts directory and unzip those'
+echo 'OPEN ARANDAR AND SET your Resolution and save it as=def resolution'
+echo 'download nerdfonts -firecoda,meslo and make put them in ".fonts" directory and unzip those'
 echo 'install network manager and install wireless driver'
-echo 'etc/sddm.conf'
+echo 'etc/sddm.conf for your display resolution configuration'
 
 #wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 #sudo rpm -i google-chrome-stable_current_x86_64.rpm
