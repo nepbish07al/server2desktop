@@ -11,4 +11,6 @@ Type this commands:
 >chmod +x fedora-bisu.sh
 
 > ./fedora-bisu.sh
+
+
 ![Easy Pizzy](https://myoctocat.com/assets/images/base-octocat.svg)
