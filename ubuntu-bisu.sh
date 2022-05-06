@@ -31,6 +31,6 @@ echo 'download nerdfonts -firecoda,meslo and make put them in ".fonts" directory
 echo 'install network manager and install wireless driver'
 echo 'etc/sddm.conf for your display resolution configuration'
 
-#wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-#sudo rpm -i google-chrome-stable_current_x86_64.rpm
-#sudo rpm -i google-chrome-stable_current_amd64.deb
+#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#sudo dpkg -i google-chrome-stable_current_amd64.deb
+
