@@ -6,7 +6,6 @@ sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 
 sudo apt install nano
-sudo apt install git
 mkdir ~/.config
 cp bg.jpg ~/.config
 ls dotconfig/
