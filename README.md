@@ -1,3 +1,6 @@
+<h1> Not ready, Do Not Try Unless you know what you are doing </h1>
+
+
 Easy way of creating the working fedora desktop from fedora server with just few commands
 
 **STEPS**__
