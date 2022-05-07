@@ -1,7 +1,8 @@
 #!/bin/bash
-sudo apt update && sudo apt upgrade
 
-sudo apt install sddm
+sudo apt-add-repository ppa:blue-shell/sddm
+sudo apt-get update
+sudo apt-get install sddm
 sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
 
@@ -24,7 +25,7 @@ echo 'set up your login page, login session=bspwm and user=YOUR_USERNAME'
 
 sudo apt install fontawesome-fonts fontawesome-fonts-web
 
-sudo apt install firefox
+#sudo apt install firefox
 sudo apt install arandar 
 echo 'OPEN ARANDAR AND SET your Resolution and save it as=def resolution'
 echo 'download nerdfonts -firecoda,meslo and make put them in ".fonts" directory and unzip those'
@@ -33,4 +34,3 @@ echo 'etc/sddm.conf for your display resolution configuration'
 
 #wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 #sudo dpkg -i google-chrome-stable_current_amd64.deb
-
