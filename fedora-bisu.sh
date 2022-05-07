@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo dnf update && sudo dnf upgrade
+#sudo dnf update && sudo dnf upgrade
 
 sudo dnf install sddm
 sudo systemctl enable sddm
@@ -24,7 +24,7 @@ echo 'set up your login page, login session=bspwm and user=YOUR_USERNAME'
 
 sudo dnf install fontawesome-fonts fontawesome-fonts-web
 
-sudo dnf install firefox
+#sudo dnf install firefox
 sudo dnf install arandar 
 echo 'OPEN ARANDAR AND SET your Resolution and save it as=def resolution'
 echo 'download nerdfonts -firecoda,meslo and make put them in ".fonts" directory and unzip those'
